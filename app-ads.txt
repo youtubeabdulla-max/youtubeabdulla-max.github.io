@@ -9,11 +9,8 @@ OWNERDOMAIN=youtubeabdulla-max.github.io
 # Google AdMob, publisher pub-9600421554640172 (also the account behind the LevelPlay Google bidder)
 google.com, pub-9600421554640172, DIRECT, f08c47fec0942fa0
 
-# ironSource Ads / Unity LevelPlay (direct).
-# OWNER: put the Publisher ID from the LevelPlay platform (avatar, bottom left > Account > API tab > Publisher ID;
-# never copy the Secret Key or Refresh Token shown on the same tab) in place of IRONSOURCE_PUBLISHER_ID,
-# then delete the leading "# " so the line becomes active.
-# ironsrc.com, IRONSOURCE_PUBLISHER_ID, DIRECT
+# ironSource Ads / Unity LevelPlay (direct): Publisher ID 685629 (LevelPlay platform > Account > API tab > Publisher ID).
+ironsrc.com, 685629, DIRECT
 
 # Unity Ads (mediated through LevelPlay). OWNER: once the Unity Ads network is connected, set the Developer Website
 # to https://youtubeabdulla-max.github.io in Unity Cloud > Monetization > Setup > Organization Settings, open
